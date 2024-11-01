@@ -1,0 +1,119 @@
+#addbooking_dialog .multiselect {
+	text-align: left;
+}
+/*020*/
+#calendar_front tr td{
+  padding: 2px!important;
+}
+
+#addbooking_dialog .multiselect-container li.active .checkbox{
+	background-color:#3A83C2;
+}
+#addbooking_dialog li .active{
+	color: red;
+}
+#addbooking_dialog li {
+	margin-bottom: 0px;
+}
+#addbooking_dialog #namediv input{
+	width: 70%;
+}
+#addbooking_dialog .ui-dialog .ui-dialog-titlebar-close span {
+		margin: -8px!important;
+}
+/**/
+#addbooking_dialog #frmbooking select, button, input, textarea {
+	border:1px solid #E2E2E2;
+	/*margin:5px;*/
+}
+#addbooking_dialog #frmbooking label {
+	margin:3px;
+	width:135px;
+}
+#addbooking_dialog span{font-size:12px;}
+#addbooking_dialog #frmbooking table{
+	width: 90%;
+}
+#addbooking_dialog table, th, td {
+    border: none;
+}
+#addbooking_dialog #frmbooking table tr td{
+	padding:2px;
+  border: none!important;
+}
+
+/*--------------*/
+.bookinglavel {
+    font-size: 12px !important;
+    width: 150px!important;
+}
+.bookinginput{
+    width: 200px!important;
+}
+.bookinginput input[type="text"]{
+    width: 190px!important;
+    height: 20px;
+    font-size: 12px!important;
+    padding: 3px!important;
+}
+.bookinginput select{
+    width: 190px!important;
+    font-size: 12px!important;
+    height: 30px;
+     padding: 3px!important;
+}
+.bookinginput textarea{
+    width: 190px!important;
+    font-size: 12px!important;
+    height: 30px;
+     padding: 3px!important;
+}
+.ms-choice{
+    font-size: 12px!important;
+    font-weight:normal!important;
+}
+#addbooking_dialog input.rounded {
+	border: 1px solid #ccc;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	font-size: 12px;
+	padding: 4px 4px;
+	outline: 0;
+	-webkit-appearance: none;
+  max-width: 250px;
+}
+#addbooking_dialog select{
+  max-width: 250px;
+}
+#addbooking_dialog select.rounded {
+	border: 1px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	/*-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;*/
+	font-size: 12px;
+	padding: 4px 4px;
+	outline: 0;
+	-webkit-appearance: none;
+}
+#addbooking_dialog input.rounded:focus {
+	border-color: #4CB7FF;
+}
+#addbooking_dialog .ui-dialog {
+	z-index:3000!important;
+}
+/*-------theme css override------*/
+#addbooking_dialog #frmbooking select, input[type="text"]{
+	height: 24px;
+	font-size:12px;
+	width:95%;
+}	
+#addbooking_dialog #frmbooking{
+	font-size:13px;
+}
+.ui-dialog .ui-dialog-titlebar{
+    font-size: 12px!important;
+}
